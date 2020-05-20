@@ -5,7 +5,7 @@ int main(){
     long Handle;
 	struct _finddata_t FileInfo;
 	char folderin[600] = "C:\\Users\\octob\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\Assets\\";//windows下‘\’需要加转义符'\'.
-	char filename[600];//存放文件绝对地址
+	char filename[600];//存放文件绝对路径
 	memset(filename, '\0', 600);//初始化filename[600]
 	int n = 0;//目标文件数计数
 		if ((Handle = _findfirst("C:\\Users\\octob\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\Assets\\*", &FileInfo)) == -1L)
