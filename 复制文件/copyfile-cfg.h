@@ -1,5 +1,6 @@
 //存放需要使用的参数
 #pragma once
-#ifndef xiong-cfg.h
+#ifndef _COPTFILE-CFG_H
+#define _COPYFILE-CFG_H
 #define sizebuf 1;
-#endif /*xiong-cfg.h*/
+#endif /*copyfile-cfg.h*/
